@@ -4,33 +4,10 @@
 # $CVSHeader: atmp20/Makefile,v 1.2.2.2 2011/07/05 07:31:44 mymtom Exp $
 #
  
-SUBDIRS	= \
-		  tsp30/Tools \
-		  public30 \
-		  msp/mspapi \
-		  msp/public \
-		  msp/tools \
-		  tsp30/public \
-		  tsp30/MessageQ \
-		  msp/mspsrv \
-		  usrc30 \
-		  tsp30  
+SUBDIRS	= tsp30/MessageQ 
 
-TAGDIRS = \
-		  inc30 \
-		  uinc30 \
-		  tsp30 \
-		  msp \
-		  usrc30/TaskCtl \
-		  usrc30/clear \
-		  usrc30/libtspdcc \
-		  usrc30/libtspxml \
-		  usrc30/libTcpAndFileSrc \
-		  usrc30/public \
-		  usrc30/libAgent \
-		  public30 \
-		  devlop30 \
-		  $(HOME)/local/include
+TAGDIRS = inc30 
+		  
 
 world: all
 
